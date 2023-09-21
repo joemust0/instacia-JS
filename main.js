@@ -24,6 +24,7 @@ class Carro{
  }
 
 let c = new Carro("black");
+let m = new Carro("red");
 let motor4c= new Motor(10);
 let motorV6 = new Motor(100);
 
@@ -33,3 +34,5 @@ motor4c.Acelerar();
 motor4c.Parar();
 motorV6.Acelerar();
 motorV6.Parar();
+m.Acelerar();
+m.Parar();
